@@ -1,0 +1,62 @@
+<!--this tells the website that the web page is going to be 
+ran on html code, this area also tells the web page what 
+language the website is in, in the case 'en' stands for English-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+  <head>
+    <!--the code below allows the web page to adjust to the 
+    dimensions of the window screen and give the ability for
+  the website to be used on phones and tablets-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>portfolio</title>
+    <!--the code below links this html file to the css style sheet-->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<!--anything inside the <body> is what is going to appear on the 
+  webpage-->
+  <body style=" background-color:#bfbdbd ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  ">
+
+    <h1 style="color: #ffffff; background-color: #000000;
+     text-align:center;
+      border: 15px black solid;
+     margin: 0px;">   
+    <img src="img/full name logo.png"
+    height="75xp"
+    width="xp" 
+    alt="full name logo"/></h1>
+
+    <!--this code uses <nav> and <ul class=> for the website to understand 
+      that the style choices for these are on the style sheet under the “menu”-->
+    <nav>
+      <ul class="menu">
+        <!--the <li> code is used as links, when clicked it takes the user to a
+           different part of the website-->
+        <li><a class="button"href="webside.html">HOME</a></li>
+        <li><a class="button"href="portfolio.html">PORTFOLIO</a></li>
+        <li><a class="button"href="about.html">ABOUT</a></li>
+        <li><a class="button"href="services.html">SERVICES</a></li>
+        <li><a class="button"href="contactus.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+
+    <!--the <div> links this html page to the css style sheet under the code ‘image-grid’
+      but there are still some code on the image to change the width of them here.
+    the 'cover' element makes sure that the pictures cover the whole page.-->
+    <div class="image-grid">
+      <img src="img/IMG_0227.png" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_0241.png" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_7166.JPG" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_7392.png" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_7393.png" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_0259.jpg" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_0228.jpg" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_7398.png" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_0243.jpg" alt="portfolio" style="width: 100%; object-fit: cover;">
+      <img src="img/IMG_7390-0.jpg" alt="portfolio" style="width: 100%; object-fit: cover;">
+    </div>
+ 
+  
+  </body>
+</html>
